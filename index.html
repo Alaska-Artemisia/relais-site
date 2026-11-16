@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relais Studio · Guestwear &amp; wellness essentials</title>
+<meta name="description" content="Robes, lounge sets and the small comforts your guests carry from treatment room to thermal pool. Natural linen and waffle, made in our Bali studio, finished with your name.">
+<meta property="og:title" content="Relais Studio">
+<meta property="og:description" content="Guestwear and wellness essentials, designed for your space.">
+<meta property="og:image" content="https://relaisstudio.com/img/ig-12.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 fill=%22%23F1EEE8%22/%3E%3Ctext x=%2232%22 y=%2246%22 text-anchor=%22middle%22 font-family=%22Georgia,serif%22 font-size=%2240%22 fill=%22%232F4A3A%22%3ER%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Gloock&family=Jost:wght@400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F1EEE8;--linen:#E6DDD0;--lime:#C9C4B8;--olive:#7A7D5A;--stone:#585B54;--tan:#C3B1A1;--pine:#2F4A3A;--ink:#2F4A3A;--body:#4A4D46;--sage:#CFD2BE}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--body);font:300 16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{color:inherit}
+.serif{font-family:'Cormorant Garamond',Garamond,serif}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.eyebrow{font:500 11px/1 Inter;letter-spacing:.22em;text-transform:uppercase;color:var(--olive)}
+h1,h2,h3{font-family:'Cormorant Garamond',Garamond,serif;color:var(--ink);font-weight:400;margin:0}
+h2{font-size:clamp(30px,3.4vw,44px);line-height:1.1}
+.btn{display:inline-block;font:500 12px/1 Inter;letter-spacing:.16em;text-transform:uppercase;padding:16px 26px;border:1px solid var(--pine);color:var(--pine);text-decoration:none;cursor:pointer;background:none}
+.btn.solid{background:var(--pine);color:var(--bg)}
+/* header */
+.hd{position:sticky;top:0;z-index:20;background:rgba(241,238,232,.94);backdrop-filter:blur(6px);border-bottom:1px solid rgba(201,196,184,.6)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:78px}
+.hd nav{display:flex;gap:30px;font:400 13px Inter;letter-spacing:.06em}
+.hd nav a{text-decoration:none;color:var(--stone)}
+/* wordmark: Gloock "Relais" over spaced Jost STUDIO */
+.logo{display:inline-flex;flex-direction:column;align-items:center;text-decoration:none;color:var(--pine);line-height:1}
+.logo .wm{font-family:Gloock,Georgia,serif;font-size:34px;font-weight:400;letter-spacing:.005em}
+.logo .sub{font-family:Jost,Inter,sans-serif;font-size:8.5px;letter-spacing:.62em;margin:5px -.62em 0 0;text-transform:uppercase}
+.logo.lg .wm{font-size:48px}
+.logo.lg .sub{font-size:11px;margin-top:7px}
+.hd .btn{padding:12px 18px;font-size:11px}
+/* hero */
+.hero{display:grid;grid-template-columns:1fr 1.05fr;min-height:calc(100vh - 78px);max-height:900px}
+.hero .txt{display:flex;flex-direction:column;justify-content:center;padding:60px 64px 60px max(32px,calc((100vw - 1240px)/2 + 32px))}
+.hero h1{font-size:clamp(40px,5vw,68px);line-height:1.04;margin:22px 0 24px}
+.hero h1 em{font-style:italic;color:var(--olive)}
+.hero p{max-width:440px;margin:0 0 36px;font-size:17px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .pics{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:8px;padding:8px 8px 8px 0}
+.hero .pics .a{grid-row:1/3}
+.trust{border-top:1px solid var(--lime);border-bottom:1px solid var(--lime);padding:18px 0}
+.trust .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font:400 12px Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--stone)}
+section{padding:110px 0}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:46px}
+.head p{max-width:420px;margin:0}
+/* segments */
+.seg{display:grid;grid-template-columns:repeat(3,1fr) .8fr;gap:16px}
+.card{position:relative;text-decoration:none;display:block}
+.card .im{aspect-ratio:3/4;overflow:hidden;background:var(--linen)}
+.card .im img{transition:transform 1.2s ease}
+.card:hover .im img{transform:scale(1.04)}
+.card h3{font-size:26px;margin:16px 0 4px}
+.card p{margin:0;font-size:14px}
+.seg .small .im{aspect-ratio:3/4}
+.seg .small h3{font-size:22px}
+/* range */
+.range{background:var(--linen)}
+.rgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
+.rgrid .im{aspect-ratio:4/5;background:var(--bg)}
+.rgrid h3{font-size:21px;margin:12px 0 0}
+.rgrid .f{font-size:12px;color:var(--stone)}
+.ph{display:grid;place-items:center;height:100%;font:italic 400 18px 'Cormorant Garamond';color:var(--tan);text-align:center;padding:10px;background:repeating-linear-gradient(135deg,#ECE6DC 0 10px,#E9E2D6 10px 20px)}
+.note{margin-top:34px;font-size:13px;color:var(--stone)}
+/* builder */
+.builder{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+.steps{counter-reset:s;margin:30px 0 34px;padding:0;list-style:none}
+.steps li{counter-increment:s;padding:14px 0;border-top:1px solid var(--lime);display:flex;gap:18px}
+.steps li::before{content:counter(s,decimal-leading-zero);font:400 22px 'Cormorant Garamond';color:var(--olive);min-width:28px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chip{font:400 12px Inter;letter-spacing:.06em;padding:9px 14px;border:1px solid var(--lime);background:transparent;color:var(--stone);cursor:pointer;border-radius:30px}
+.chip.on{background:var(--pine);border-color:var(--pine);color:var(--bg)}
+.story{display:flex;gap:10px;margin-bottom:18px;align-items:center;font-size:13px}
+.sw{width:30px;height:30px;border-radius:50%;border:2px solid transparent;cursor:pointer;padding:0}
+.sw.on{border-color:var(--pine);outline:2px solid var(--bg);outline-offset:-4px}
+.board{background:var(--linen);aspect-ratio:5/4;padding:28px;display:grid;gap:14px;grid-template-columns:repeat(3,1fr);align-content:center;transition:background .5s}
+.board.sage{background:var(--sage)}
+.board .it{aspect-ratio:1;background:var(--bg);box-shadow:0 10px 30px rgba(47,74,58,.08);position:relative;overflow:hidden}
+.board .it span{position:absolute;left:8px;bottom:8px;background:rgba(241,238,232,.92);color:var(--pine);font:500 10px Inter;letter-spacing:.12em;text-transform:uppercase;padding:4px 7px}
+.board .empty{grid-column:1/-1;text-align:center;font:italic 22px 'Cormorant Garamond';color:var(--stone)}
+.cap{font-size:12px;color:var(--stone);margin-top:10px}
+/* ritual band */
+.band{display:grid;grid-template-columns:1fr 1fr;min-height:620px;background:var(--pine);color:var(--linen)}
+.band .im{overflow:hidden}
+.band .t{padding:90px 80px;display:flex;flex-direction:column;justify-content:center}
+.band h2{color:var(--bg)}
+.band .eyebrow{color:var(--tan)}
+.band p{max-width:460px}
+.band .btn{border-color:var(--linen);color:var(--linen);align-self:flex-start;margin-top:20px}
+.pk{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:34px}
+.pk div{aspect-ratio:1;overflow:hidden}
+/* cases */
+.cases{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cases .im{aspect-ratio:4/5}
+
+.tag{position:absolute;top:12px;left:12px;background:var(--bg);color:var(--pine);font:500 10px Inter;letter-spacing:.16em;text-transform:uppercase;padding:5px 9px}
+/* making */
+.making{background:var(--linen)}
+.mk{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:16px;align-items:stretch}
+.mk .im{aspect-ratio:3/4}
+.mk .t{padding:10px 0 0 40px;display:flex;flex-direction:column;justify-content:center}
+.proc{display:flex;flex-wrap:wrap;gap:6px 10px;margin-top:22px;font:400 12px Inter;letter-spacing:.1em;text-transform:uppercase;color:var(--olive)}
+/* about + cta */
+.about{text-align:center;max-width:760px;margin:0 auto}
+.about p.q{font:italic 400 clamp(24px,2.6vw,32px)/1.35 'Cormorant Garamond';color:var(--ink);margin:24px 0}
+.cta{background:var(--pine);color:var(--linen);text-align:center;padding:110px 32px}
+.cta h2{color:var(--bg);margin:18px 0 18px}
+.cta .btn{border-color:var(--bg);color:var(--pine);background:var(--bg)}
+.cta .eyebrow{color:var(--tan)}
+footer{background:#263D30;color:var(--lime);padding:60px 0 40px;font-size:13px}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+footer h4{font:500 11px Inter;letter-spacing:.18em;text-transform:uppercase;color:var(--tan);margin:0 0 14px}
+footer a{display:block;text-decoration:none;margin-bottom:6px}
+footer .logo{display:inline-flex;color:var(--linen);margin:0}
+.fine{grid-column:1/-1;border-top:1px solid #3A5444;padding-top:20px;margin-top:20px;font-size:11px;color:#8C9A8E}
+@media (max-width:1000px){
+ .hd nav{display:none}
+ .logo .wm{font-size:28px}
+ .hero{grid-template-columns:1fr;max-height:none}
+ .hero .txt{padding:48px 16px}
+ .hero .pics{padding:0 16px 16px;height:520px}
+ .wrap{padding:0 16px}
+ section{padding:72px 0}
+ .head{flex-direction:column;align-items:start}
+ .seg{grid-template-columns:1fr 1fr}
+ .rgrid{grid-template-columns:repeat(2,1fr)}
+ .builder{grid-template-columns:1fr;gap:36px}
+ .band{grid-template-columns:1fr}.band .im{height:420px}.band .t{padding:56px 16px}
+ .cases{grid-template-columns:1fr}
+ .mk{grid-template-columns:1fr 1fr}.mk .t{grid-column:1/-1;padding:20px 0 0}
+ footer .wrap{grid-template-columns:1fr 1fr}
+}
+</style></head><body>
+
+<header class="hd"><div class="wrap">
+ <a class="logo" href="/" aria-label="Relais Studio home"><span class="wm">Relais</span><span class="sub">Studio</span></a>
+ <nav><a href="#range">The Range</a><a href="#build">Build your capsule</a><a href="#venues">For your venue</a><a href="#cases">Case studies</a><a href="#making">Materials &amp; making</a><a href="#about">About</a></nav>
+ <a class="btn" href="#enquire">Enquire</a>
+</div></header>
+
+<div class="hero">
+ <div class="txt">
+  <span class="eyebrow">Guestwear &amp; wellness essentials</span>
+  <h1>Designed for your space, <em>made for the ritual.</em></h1>
+  <p>Robes, lounge sets and the small comforts your guests carry from treatment room to thermal pool. Natural linen and waffle, made in our Bali studio, finished with your name.</p>
+  <div class="ctas"><a class="btn solid" href="#build">Build your capsule</a><a class="btn" href="#range">See the range</a></div>
+ </div>
+ <div class="pics">
+  <div class="a"><img src="img/ig-12.jpg" alt=""></div>
+  <div><img loading="lazy" src="img/ig-24.jpg" alt=""></div>
+  <div><img loading="lazy" src="img/ig-11.jpg" alt=""></div>
+ </div>
+</div>
+
+<div class="trust"><div class="wrap"><span>Minimums from 50 pieces</span><span>Your logo &amp; label</span><span>Linen · waffle · gauze · recycled canvas</span><span>Made in Bali</span></div></div>
+
+<section id="venues"><div class="wrap">
+ <div class="head"><div><span class="eyebrow">For your venue</span><h2 style="margin-top:14px">Every space has its own ritual.</h2></div><p>Choose a starting point. We'll suggest a capsule for how your guests move through the day, then shape it to you.</p></div>
+ <div class="seg">
+  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-16.jpg" alt=""></div><h3>Spas &amp; retreats</h3><p>Robes, slippers and eye masks for the treatment-room rhythm.</p></a>
+  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-13.jpg" alt=""></div><h3>Yoga &amp; Pilates</h3><p>Totes, scrunchies and pouches your members carry home.</p></a>
+  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/ig-03.jpg" alt=""></div><h3>Thermal baths</h3><p>Waffle robes and slippers built for heat, steam and laundry.</p></a>
+  <a class="card small" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-05.jpg" alt=""></div><h3>Boutique hotels</h3><p>In-room and poolside pieces.</p></a>
+ </div>
+</div></section>
+
+<section class="range" id="range"><div class="wrap">
+ <div class="head"><div><span class="eyebrow">The range</span><h2 style="margin-top:14px">Seven pieces. Two colour stories.</h2></div><p>Every piece comes in Taupe &amp; off-white or Sage &amp; pine, and we can adjust colour, label and fit on each order.</p></div>
+ <div class="rgrid">
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-08.jpg" alt=""></div><h3>Robe</h3><div class="f">Linen kimono · waffle</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-14.jpg" alt=""></div><h3>Lounge set</h3><div class="f">Linen · cotton gauze</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-24.jpg" alt=""></div><h3>Eye mask</h3><div class="f">Matching linen</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/scrunchie.jpg" alt="Linen scrunchies" loading="lazy"></div><h3>Scrunchie</h3><div class="f">Matching linen</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/products_mb-07.jpg" alt=""></div><h3>Tote</h3><div class="f">Recycled canvas</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-36.jpg" alt=""></div><h3>Make-up pouch</h3><div class="f">Canvas · waffle</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-40.jpg" alt=""></div><h3>Slippers</h3><div class="f">Waffle</div></div>
+ </div>
+ <p class="note">MOQ 50 per piece · pricing on enquiry</p>
+</div></section>
+
+<section id="build"><div class="wrap builder">
+ <div>
+  <span class="eyebrow">Build your capsule</span>
+  <h2 style="margin-top:14px">See your range before you commit.</h2>
+  <ol class="steps">
+   <li>Choose the pieces your guests will use.</li>
+   <li>Pick a colour story.</li>
+   <li>Add quantities, your logo and timing.</li>
+   <li>We send a proposal and sample options.</li>
+  </ol>
+  <a class="btn solid" href="#enquire">Start building</a>
+ </div>
+ <div>
+  <div class="chips" id="chips"></div>
+  <div class="story"><button class="sw on" data-s="taupe" style="background:#D9CFC1" aria-label="Taupe"></button><button class="sw" data-s="sage" style="background:#9DA487" aria-label="Sage"></button><span id="sl">Taupe &amp; off-white</span></div>
+  <div class="board" id="board"></div>
+  <div class="cap">Preview only. Final boards use matched studio cutouts in each colour story.</div>
+ </div>
+</div></section>
+
+<div class="band">
+ <div class="im"><img loading="lazy" src="img/proposed-39.jpg" alt=""></div>
+ <div class="t">
+  <span class="eyebrow">How it arrives</span>
+  <h2 style="margin:14px 0 18px">Presented as carefully as it's made.</h2>
+  <p>Folded, wrapped and boxed, ready for the shelf, the room or the gift shop. Your name on the label, the pouch and the ribbon.</p>
+  <div class="pk"><div><img loading="lazy" src="img/proposed-23.jpg" alt=""></div><div><img loading="lazy" src="img/proposed-32.jpg" alt=""></div><div><img loading="lazy" src="img/proposed-01.jpg" alt=""></div></div>
+ </div>
+</div>
+
+<section id="cases"><div class="wrap">
+ <div class="head"><div><span class="eyebrow">Case studies</span><h2 style="margin-top:14px">In the places we love.</h2></div></div>
+ <div class="cases">
+  <a class="card first" href="#enquire" style="display:flex;flex-direction:column"><div class="im" style="position:relative"><img loading="lazy" src="img/ig-30.jpg" alt=""><span class="tag">Client</span></div><h3>Alila, Bali</h3><p>Robes and slippers for the spa and villas.</p></a>
+  <a class="card" href="#enquire"><div class="im" style="position:relative"><img loading="lazy" src="img/products_mb-12.jpg" alt=""><span class="tag">Client</span></div><h3>Siwa, Lombok</h3><p>Poolside totes and guest robes.</p></a>
+  <a class="card" href="#enquire"><div class="im" style="position:relative"><img loading="lazy" src="img/ig-01.jpg" alt=""><span class="tag">Concept</span></div><h3>The in-room ritual</h3><p>A concept capsule for a 20-key hotel.</p></a>
+ </div>
+</div></section>
+
+<section class="making" id="making"><div class="wrap mk">
+ <div class="im"><img loading="lazy" src="img/materials-01.jpg" alt=""></div>
+ <div class="im"><img loading="lazy" src="img/studio-11.jpg" alt=""></div>
+ <div class="t">
+  <span class="eyebrow">Materials &amp; making</span>
+  <h2 style="margin:14px 0 18px">Natural fibres, made slowly.</h2>
+  <p>Stone-washed linen, cotton waffle, soft gauze and recycled canvas with PET webbing. Cut and sewn by our makers in Bali, in small runs, so reorders match.</p>
+  <div class="proc"><span>Brief</span>→<span>Proposal</span>→<span>Sample capsule</span>→<span>Production</span>→<span>Reorder</span></div>
+ </div>
+</div></section>
+
+<section id="about"><div class="about wrap">
+ <span class="eyebrow">About</span>
+ <p class="q">"We started making the things we wanted to find in the places we love to stay."</p>
+ <p>Relais Studio is Fon and Melina, the team behind Me + Lia, with our makers in Bali.</p>
+</div></section>
+
+<div class="cta" id="enquire">
+ <span class="eyebrow">Enquire</span>
+ <h2>Tell us about your space.</h2>
+ <p style="max-width:460px;margin:0 auto 32px">Share your venue, the pieces you're considering and your timing. We'll come back with a proposal and sample options.</p>
+ <a class="btn" href="mailto:hello@relaisstudio.com?subject=Relais%20Studio%20enquiry">Start an enquiry</a>
+</div>
+
+<footer><div class="wrap">
+ <div><a class="logo lg" href="/" aria-label="Relais Studio home"><span class="wm">Relais</span><span class="sub">Studio</span></a></div>
+ <div><h4>Studio</h4><a href="#range">The Range</a><a href="#build">Build your capsule</a><a href="#making">Materials &amp; making</a><a href="#about">About</a></div>
+ <div><h4>Venues</h4><a href="#venues">Spas &amp; retreats</a><a href="#venues">Yoga &amp; Pilates</a><a href="#venues">Thermal baths</a><a href="#venues">Hotels</a></div>
+ <div><h4>Contact</h4><a href="mailto:hello@relaisstudio.com">hello@relaisstudio.com</a><a href="https://cassiaessentiels.com">Cassia Essentiels ↗</a></div>
+ <div class="fine">© Relais Studio</div>
+</div></footer>
+
+<script>
+const P=[["Robe","proposed-08","proposed-01"],["Lounge set","proposed-14","proposed-15"],["Eye mask","proposed-24","proposed-24"],["Scrunchie","scrunchie","scrunchie"],["Tote","products_mb-07","proposed-19"],["Pouch","proposed-36","proposed-36"],["Slippers","proposed-40","proposed-40"]];
+let on=new Set(["Robe","Slippers","Eye mask","Tote"]),story="taupe";
+const chips=document.getElementById('chips'),board=document.getElementById('board');
+P.forEach(([n])=>{const b=document.createElement('button');b.className='chip';b.textContent=n;b.onclick=()=>{on.has(n)?on.delete(n):on.add(n);draw()};chips.appendChild(b)});
+document.querySelectorAll('.sw').forEach(s=>s.onclick=()=>{story=s.dataset.s;document.querySelectorAll('.sw').forEach(x=>x.classList.toggle('on',x===s));document.getElementById('sl').textContent=story==='taupe'?'Taupe & off-white':'Sage & pine';draw()});
+function draw(){[...chips.children].forEach(c=>c.classList.toggle('on',on.has(c.textContent)));
+ board.classList.toggle('sage',story==='sage');board.style.gridTemplateColumns=`repeat(${on.size<=4?2:3},1fr)`;board.style.padding=on.size<=4?'28px 18%':'28px';
+ const sel=P.filter(p=>on.has(p[0]));
+ board.innerHTML=sel.length?sel.map(([n,a,b])=>{const k=story==='taupe'?a:b;return `<div class="it">${k?`<img loading="lazy" src="img/${k}.jpg" alt="">`:'<div class="ph">to come</div>'}<span>${n}</span></div>`}).join(''):'<div class="empty">Choose pieces to start your capsule</div>';}
+draw();
+</script>
+</body></html>
