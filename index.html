@@ -59,7 +59,9 @@ section{padding:110px 0}
 /* range */
 .range{background:var(--linen)}
 .rgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
-.rgrid .im{aspect-ratio:4/5;background:var(--bg)}
+.rgrid .im{aspect-ratio:4/5;background:var(--bg);position:relative}
+.rgrid .im img.alt{position:absolute;inset:0;opacity:0;transition:opacity .5s ease}
+.rgrid .card:hover .im img.alt{opacity:1}
 .rgrid h3{font-size:21px;margin:12px 0 0}
 .rgrid .f{font-size:12px;color:var(--stone)}
 .ph{display:grid;place-items:center;height:100%;font:italic 400 18px 'Cormorant Garamond';color:var(--tan);text-align:center;padding:10px;background:repeating-linear-gradient(135deg,#ECE6DC 0 10px,#E9E2D6 10px 20px)}
@@ -169,11 +171,11 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
 <section class="range" id="range"><div class="wrap">
  <div class="head"><div><span class="eyebrow">The range</span><h2 style="margin-top:14px">Seven pieces. Two colour stories.</h2></div><p>Every piece comes in Taupe &amp; off-white or Sage &amp; pine, and we can adjust colour, label and fit on each order.</p></div>
  <div class="rgrid">
-  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-08.jpg" alt=""></div><h3>Robe</h3><div class="f">Linen kimono · waffle</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-08.jpg" alt="Waffle robe"><img class="alt" loading="lazy" src="img/proposed-15.jpg" alt="Linen kimono robe"></div><h3>Robe</h3><div class="f">Linen kimono · waffle</div></div>
   <div class="card"><div class="im"><img loading="lazy" src="img/proposed-14.jpg" alt=""></div><h3>Lounge set</h3><div class="f">Linen · cotton gauze</div></div>
   <div class="card"><div class="im"><img loading="lazy" src="img/proposed-24.jpg" alt=""></div><h3>Eye mask</h3><div class="f">Matching linen</div></div>
   <div class="card"><div class="im"><img loading="lazy" src="img/scrunchie.jpg" alt="Linen scrunchies" loading="lazy"></div><h3>Scrunchie</h3><div class="f">Matching linen</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/products_mb-07.jpg" alt=""></div><h3>Tote</h3><div class="f">Recycled canvas</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/products_mb-07.jpg" alt="Canvas tote"><img class="alt" loading="lazy" src="img/proposed-19.jpg" alt="Sage canvas tote"></div><h3>Tote</h3><div class="f">Recycled canvas</div></div>
   <div class="card"><div class="im"><img loading="lazy" src="img/proposed-36.jpg" alt=""></div><h3>Make-up pouch</h3><div class="f">Canvas · waffle</div></div>
   <div class="card"><div class="im"><img loading="lazy" src="img/proposed-40.jpg" alt=""></div><h3>Slippers</h3><div class="f">Waffle</div></div>
  </div>
@@ -221,7 +223,7 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
 
 <section class="making" id="making"><div class="wrap mk">
  <div class="im"><img loading="lazy" src="img/materials-01.jpg" alt=""></div>
- <div class="im"><img loading="lazy" src="img/studio-11.jpg" alt=""></div>
+ <div class="im"><img loading="lazy" src="img/proposed-15.jpg" alt="Sage linen robe"></div>
  <div class="t">
   <span class="eyebrow">Materials &amp; making</span>
   <h2 style="margin:14px 0 18px">Natural fibres, made slowly.</h2>
