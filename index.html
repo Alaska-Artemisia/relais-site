@@ -105,6 +105,19 @@ section{padding:110px 0}
 .mk .t{padding:10px 0 0 40px;display:flex;flex-direction:column;justify-content:center}
 .proc{display:flex;flex-wrap:wrap;gap:6px 10px;margin-top:22px;font:400 12px Inter;letter-spacing:.1em;text-transform:uppercase;color:var(--olive)}
 /* about + cta */
+.who{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}
+.who-im{aspect-ratio:2/3;overflow:hidden;background:var(--linen)}
+.who-t p{max-width:560px}
+.pts{list-style:none;padding:0;margin:26px 0;display:grid;gap:14px;max-width:560px}
+.pts li{padding-left:22px;position:relative}.pts li::before{content:'';position:absolute;left:0;top:.7em;width:10px;height:1px;background:var(--olive)}
+.pts b{font-weight:500;color:var(--ink)}
+.who-t p.q{font:italic 400 clamp(22px,2.2vw,28px)/1.35 'Cormorant Garamond';color:var(--ink);margin:28px 0 0}
+.makers{margin-top:110px}
+.mk-head{display:grid;grid-template-columns:1fr 1fr;gap:30px 70px;align-items:end;margin-bottom:40px}.mk-head p{margin:0;max-width:520px}
+.mk-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.mk-grid figure{margin:0}.mk-grid img{aspect-ratio:3/2;height:auto}
+.mk-grid figcaption{font-size:12px;letter-spacing:.06em;color:var(--stone);margin-top:10px}
+@media (max-width:1000px){.who{grid-template-columns:1fr;gap:30px}.who-im{max-width:420px}.makers{margin-top:72px}.mk-head{grid-template-columns:1fr}.mk-grid{grid-template-columns:1fr}}
 .about{text-align:center;max-width:760px;margin:0 auto}
 .about p.q{font:italic 400 clamp(24px,2.6vw,32px)/1.35 'Cormorant Garamond';color:var(--ink);margin:24px 0}
 .cta{background:var(--pine);color:var(--linen);text-align:center;padding:110px 32px}
@@ -267,10 +280,30 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
  </div>
 </div></section>
 
-<section id="about"><div class="about wrap">
- <span class="eyebrow">About</span>
- <p class="q">"We started making the things we wanted to find in the places we love to stay."</p>
- <p>Relais Studio is Fon and Melina, the team behind Me + Lia, with our makers across Bali and Java.</p>
+<section id="about"><div class="wrap">
+ <div class="who">
+  <div class="who-im"><img loading="lazy" src="img/founders.webp" alt="Melina and Fonny, the mother-and-daughter founders of Relais Studio"></div>
+  <div class="who-t">
+   <span class="eyebrow">About</span>
+   <h2 style="margin:14px 0 18px">A mother and daughter who come to you.</h2>
+   <p>Relais Studio is Melina and Fonny, the mother-and-daughter team behind Me + Lia, the Melbourne label making natural-fibre dresses and loungewear for American customers since 2022. Relais is what happened when the places we love to stay started asking for our robes.</p>
+   <ul class="pts">
+    <li><b>We visit you.</b> We bring samples to US venues in person, and stay your contact from first brief to reorder.</li>
+    <li><b>We know the fabric.</b> Years of designing in cotton and linen taught us what washes, wears and sells.</li>
+    <li><b>We've done it before.</b> Robes for Alila Bali's gift store, and guestwear for Siwa Lombok.</li>
+   </ul>
+   <p class="q">"We started making the things we wanted to find in the places we love to stay."</p>
+  </div>
+ </div>
+ <div class="makers">
+  <div class="mk-head"><div><span class="eyebrow">Meet the makers</span><h2 style="margin-top:14px">Two workshops. Around 24 makers.</h2></div><p>We work with two partner workshops in Indonesia, one in Bali and one in Bandung, West Java, each with a team of about twelve. Modern machines for cutting and embroidery, skilled hands for sewing and finishing.</p></div>
+  <div class="mk-grid">
+   <figure><img loading="lazy" src="img/maker-bali.webp" alt="Sewing floor at the Bali workshop"><figcaption>Sewing floor, Bali</figcaption></figure>
+   <figure><img loading="lazy" src="img/maker-cut.webp" alt="Cutting room at the Bandung workshop"><figcaption>Cutting room, Bandung</figcaption></figure>
+   <figure><img loading="lazy" src="img/maker-emb.webp" alt="Logo embroidery on waffle robes"><figcaption>Your logo, embroidered in-house</figcaption></figure>
+   <figure><img loading="lazy" src="img/maker-qc.webp" alt="Measuring and packing finished robes"><figcaption>Measured, finished and packed</figcaption></figure>
+  </div>
+ </div>
 </div></section>
 
 <section class="faq" id="faq"><div class="wrap">
