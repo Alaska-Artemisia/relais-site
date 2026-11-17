@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Relais Studio · Guestwear &amp; wellness essentials</title>
-<meta name="description" content="Robes, lounge sets and the small comforts your guests carry from treatment room to thermal pool. Natural linen and waffle, made in our Bali studio, finished with your name.">
+<meta name="description" content="Robes, lounge sets and the small comforts your guests carry from treatment room to thermal pool. Natural linen and waffle, designed in our Bali studio, made in Indonesia, finished with your name.">
 <meta property="og:title" content="Relais Studio">
 <meta property="og:description" content="Guestwear and wellness essentials, designed for your space.">
 <meta property="og:image" content="https://relaisstudio.com/img/us-4.jpg">
@@ -136,6 +136,12 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
 }
 .hero .pics{display:block;padding:0;position:relative;overflow:hidden}.hero .pics div{position:absolute;inset:0}
 [hidden]{display:none!important}
+.menu-btn{display:none;background:none;border:0;width:40px;height:40px;padding:10px 8px;cursor:pointer;flex-direction:column;justify-content:center;gap:6px}
+.menu-btn span{display:block;height:1.5px;background:var(--pine);transition:transform .3s}
+.hd.open .menu-btn span:first-child{transform:translateY(3.75px) rotate(45deg)}.hd.open .menu-btn span:last-child{transform:translateY(-3.75px) rotate(-45deg)}
+@media (max-width:1000px){.menu-btn{display:flex}.hd .wrap{position:relative}.hd .btn{margin-left:auto;margin-right:10px}
+.hd.open nav{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--lime);padding:4px 16px 12px;font-size:15px}
+.hd.open nav a{padding:14px 0;border-bottom:1px solid rgba(201,196,184,.5)}.hd.open nav a:last-child{border-bottom:0}}
 /* faq */
 .faq .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}
 .faq details{border-top:1px solid var(--lime);padding:20px 0}
@@ -172,40 +178,41 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
  <a class="logo" href="/" aria-label="Relais Studio home"><span class="wm">Relais</span><span class="sub">Studio</span></a>
  <nav><a href="#range">The Range</a><a href="#build">Build your collection</a><a href="#venues">For your venue</a><a href="#cases">Case studies</a><a href="#making">Materials &amp; making</a><a href="#about">About</a></nav>
  <a class="btn" href="#enquire">Enquire</a>
+ <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
 </div></header>
 
 <div class="hero">
  <div class="txt">
   <span class="eyebrow">Guestwear &amp; wellness essentials</span>
   <h1>Designed for your space, <em>made for the ritual.</em></h1>
-  <p>Robes, lounge sets and the small comforts your guests carry from treatment room to thermal pool. Natural linen and waffle, made in our Bali studio, finished with your name.</p>
+  <p>Robes, lounge sets and the small comforts your guests carry from treatment room to thermal pool. Natural linen and waffle, designed in our Bali studio, made in Indonesia, finished with your name.</p>
   <div class="ctas"><a class="btn solid" href="#build">Build your collection</a><a class="btn" href="#range">See the range</a></div>
  </div>
- <div class="pics"><div><img src="img/us-4.jpg" alt="Folded sage waffle robes and towels on a cedar bench beside a steaming outdoor pool, a guest in a robe on the pool edge, in a Pacific Northwest forest" style="object-position:50% 70%"></div></div>
+ <div class="pics"><div><img src="img/us-4.webp" alt="Folded sage waffle robes and towels on a cedar bench beside a steaming outdoor pool, a guest in a robe on the pool edge, in a Pacific Northwest forest" style="object-position:50% 70%"></div></div>
 </div>
 
-<div class="trust"><div class="wrap"><span>Minimums from 25 pieces</span><span>Your logo &amp; label</span><span>Linen · waffle · gauze · recycled canvas</span><span>Made in Bali</span></div></div>
+<div class="trust"><div class="wrap"><span>Minimums from 25 pieces</span><span>Your logo &amp; label</span><span>Linen · waffle · gauze · recycled canvas</span><span>Made in Indonesia</span></div></div>
 
 <section id="venues"><div class="wrap">
  <div class="head"><div><span class="eyebrow">For your venue</span><h2 style="margin-top:14px">Every space has its own ritual.</h2></div><p>Choose a starting point. We'll suggest a collection for how your guests move through the day, then shape it to you.</p></div>
  <div class="seg">
-  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-16.jpg" alt=""></div><h3>Spas &amp; retreats</h3><p>Robes, slippers and eye masks for the treatment-room rhythm.</p></a>
-  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-13.jpg" alt=""></div><h3>Yoga &amp; Pilates</h3><p>Totes, scrunchies and pouches your members carry home.</p></a>
-  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/ig-03.jpg" alt=""></div><h3>Thermal baths</h3><p>Waffle robes and slippers built for heat, steam and laundry.</p></a>
-  <a class="card small" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-05.jpg" alt=""></div><h3>Boutique hotels</h3><p>In-room and poolside pieces.</p></a>
+  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-16.webp" alt=""></div><h3>Spas &amp; retreats</h3><p>Robes, slippers and eye masks for the treatment-room rhythm.</p></a>
+  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-13.webp" alt=""></div><h3>Yoga &amp; Pilates</h3><p>Totes, scrunchies and pouches your members carry home.</p></a>
+  <a class="card" href="#enquire"><div class="im"><img loading="lazy" src="img/ig-03.webp" alt=""></div><h3>Thermal baths</h3><p>Waffle robes and slippers built for heat, steam and laundry.</p></a>
+  <a class="card small" href="#enquire"><div class="im"><img loading="lazy" src="img/products_mb-05.webp" alt=""></div><h3>Boutique hotels</h3><p>In-room and poolside pieces.</p></a>
  </div>
 </div></section>
 
 <section class="range" id="range"><div class="wrap">
- <div class="head"><div><span class="eyebrow">The range</span><h2 style="margin-top:14px">Seven pieces. Two colour stories.</h2></div><p>Every piece comes in Taupe &amp; off-white or Sage &amp; pine, and we can adjust colour, label and fit on each order.</p></div>
+ <div class="head"><div><span class="eyebrow">The range</span><h2 style="margin-top:14px">Nine pieces. Four colours.</h2></div><p>Every piece comes in off-white, pebble grey, sage or khaki, and we can adjust colour, label and fit on each order.</p></div>
  <div class="rgrid">
-  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-08.jpg" alt="Waffle robe"><img class="alt" loading="lazy" src="img/proposed-15.jpg" alt="Linen kimono robe"></div><h3>Robe</h3><div class="f">Linen kimono · waffle</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-14.jpg" alt=""></div><h3>Lounge set</h3><div class="f">Linen · cotton gauze</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-24.jpg" alt=""></div><h3>Eye mask</h3><div class="f">Matching linen</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/scrunchie.jpg" alt="Linen scrunchies" loading="lazy"></div><h3>Scrunchie</h3><div class="f">Matching linen</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/products_mb-07.jpg" alt="Canvas tote"><img class="alt" loading="lazy" src="img/proposed-19.jpg" alt="Sage canvas tote"></div><h3>Tote</h3><div class="f">Recycled canvas</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-36.jpg" alt=""></div><h3>Make-up pouch</h3><div class="f">Canvas · waffle</div></div>
-  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-40.jpg" alt=""></div><h3>Slippers</h3><div class="f">Waffle</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-08.webp" alt="Waffle robe"><img class="alt" loading="lazy" src="img/proposed-15.webp" alt="Linen kimono robe"></div><h3>Robe</h3><div class="f">Linen kimono · waffle</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-14.webp" alt=""></div><h3>Lounge set</h3><div class="f">Linen kimono top · shorts</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-24.webp" alt=""></div><h3>Eye mask</h3><div class="f">Matching linen</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/scrunchie.webp" alt="Linen scrunchies"><img class="alt" loading="lazy" src="img/headband.webp" alt="Linen headbands"></div><h3>Scrunchie &amp; headband</h3><div class="f">Matching linen</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/products_mb-07.webp" alt="Canvas tote"><img class="alt" loading="lazy" src="img/proposed-19.webp" alt="Sage canvas tote"></div><h3>Tote</h3><div class="f">Canvas · large &amp; small</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-36.webp" alt="Waffle zip pouch"><img class="alt" loading="lazy" src="img/proposed-32.webp" alt="Envelope pouches with ribbon ties"></div><h3>Pouches</h3><div class="f">Zip make-up · envelope gift</div></div>
+  <div class="card"><div class="im"><img loading="lazy" src="img/proposed-40.webp" alt=""></div><h3>Slippers</h3><div class="f">Waffle · two sizes</div></div>
  </div>
  <p class="note">From 25 per piece, 50 with your logo · pricing on enquiry</p>
 </div></section>
@@ -216,7 +223,7 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
   <h2 style="margin-top:14px">See your range before you commit.</h2>
   <ol class="steps">
    <li>Choose the pieces your guests will use.</li>
-   <li>Pick a colour story.</li>
+   <li>Pick your colours.</li>
    <li>Add quantities, your logo and timing.</li>
    <li>We send a proposal and sample options.</li>
   </ol>
@@ -224,38 +231,38 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
  </div>
  <div>
   <div class="chips" id="chips"></div>
-  <div class="story"><button class="sw on" data-s="taupe" style="background:#D9CFC1" aria-label="Taupe"></button><button class="sw" data-s="sage" style="background:#9DA487" aria-label="Sage"></button><span id="sl">Taupe &amp; off-white</span></div>
+  <div class="story"><button class="sw on" data-s="taupe" style="background:linear-gradient(135deg,#ECE7DD 50%,#B7B3AA 50%)" aria-label="Off-white and pebble grey"></button><button class="sw" data-s="sage" style="background:linear-gradient(135deg,#A3AA8E 50%,#978E6E 50%)" aria-label="Sage and khaki"></button><span id="sl">Off-white &amp; pebble grey</span></div>
   <div class="board" id="board"></div>
-  <div class="cap">Preview only. Final boards use matched studio cutouts in each colour story.</div>
+  <div class="cap">Preview only. Final boards use matched studio cutouts in your chosen colours.</div>
  </div>
 </div></section>
 
 <div class="band">
- <div class="im"><img loading="lazy" src="img/proposed-39.jpg" alt=""></div>
+ <div class="im"><img loading="lazy" src="img/proposed-39.webp" alt=""></div>
  <div class="t">
   <span class="eyebrow">How it arrives</span>
   <h2 style="margin:14px 0 18px">Presented as carefully as it's made.</h2>
   <p>Folded, wrapped and boxed, ready for the shelf, the room or the gift shop. Your name on the label, the pouch and the ribbon.</p>
-  <div class="pk"><div><img loading="lazy" src="img/proposed-23.jpg" alt=""></div><div><img loading="lazy" src="img/proposed-32.jpg" alt=""></div><div><img loading="lazy" src="img/proposed-01.jpg" alt=""></div></div>
+  <div class="pk"><div><img loading="lazy" src="img/proposed-23.webp" alt=""></div><div><img loading="lazy" src="img/proposed-32.webp" alt=""></div><div><img loading="lazy" src="img/proposed-01.webp" alt=""></div></div>
  </div>
 </div>
 
 <section id="cases"><div class="wrap">
  <div class="head"><div><span class="eyebrow">Case studies</span><h2 style="margin-top:14px">In the places we love.</h2></div></div>
  <div class="cases">
-  <a class="card first" href="#enquire" style="display:flex;flex-direction:column"><div class="im" style="position:relative"><img loading="lazy" src="img/ig-30.jpg" alt=""><span class="tag">Client</span></div><h3>Alila, Bali</h3><p>Robes for the resort gift store.</p></a>
-  <a class="card" href="#enquire"><div class="im" style="position:relative"><img loading="lazy" src="img/products_mb-12.jpg" alt=""><span class="tag">Client</span></div><h3>Siwa, Lombok</h3><p>Poolside totes and guest robes.</p></a>
-  <a class="card" href="#enquire"><div class="im" style="position:relative"><img loading="lazy" src="img/ig-01.jpg" alt=""><span class="tag">Concept</span></div><h3>The in-room ritual</h3><p>A concept collection for a 20-key hotel.</p></a>
+  <a class="card first" href="#enquire" style="display:flex;flex-direction:column"><div class="im" style="position:relative"><img loading="lazy" src="img/ig-30.webp" alt=""><span class="tag">Client</span></div><h3>Alila, Bali</h3><p>Robes for the resort gift store.</p></a>
+  <a class="card" href="#enquire"><div class="im" style="position:relative"><img loading="lazy" src="img/products_mb-12.webp" alt=""><span class="tag">Client</span></div><h3>Siwa, Lombok</h3><p>Poolside totes and guest robes.</p></a>
+  <a class="card" href="#enquire"><div class="im" style="position:relative"><img loading="lazy" src="img/ig-01.webp" alt=""><span class="tag">Concept</span></div><h3>The in-room ritual</h3><p>A concept collection for a 20-key hotel.</p></a>
  </div>
 </div></section>
 
 <section class="making" id="making"><div class="wrap mk">
- <div class="im"><img loading="lazy" src="img/materials-01.jpg" alt=""></div>
- <div class="im"><img loading="lazy" src="img/proposed-15.jpg" alt="Sage linen robe"></div>
+ <div class="im"><img loading="lazy" src="img/materials-01.webp" alt=""></div>
+ <div class="im"><img loading="lazy" src="img/proposed-15.webp" alt="Sage linen robe"></div>
  <div class="t">
   <span class="eyebrow">Materials &amp; making</span>
   <h2 style="margin:14px 0 18px">Natural fibres, made slowly.</h2>
-  <p>Stone-washed linen, cotton waffle, soft gauze and recycled canvas with PET webbing. Cut and sewn by our makers in Bali, in small runs, so reorders match.</p>
+  <p>Stone-washed linen, cotton waffle, soft gauze and recycled canvas with PET webbing. Cut and sewn by our makers in Bali and Java, in small runs, so reorders match.</p>
   <div class="proc"><span>Brief</span>→<span>Proposal</span>→<span>Samples</span>→<span>Production</span>→<span>Reorder</span></div>
  </div>
 </div></section>
@@ -263,7 +270,7 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
 <section id="about"><div class="about wrap">
  <span class="eyebrow">About</span>
  <p class="q">"We started making the things we wanted to find in the places we love to stay."</p>
- <p>Relais Studio is Fon and Melina, the team behind Me + Lia, with our makers in Bali.</p>
+ <p>Relais Studio is Fon and Melina, the team behind Me + Lia, with our makers across Bali and Java.</p>
 </div></section>
 
 <section class="faq" id="faq"><div class="wrap">
@@ -295,7 +302,7 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
   <label>Venue type<select name="Venue type"><option>Spa or wellness retreat</option><option>Yoga or Pilates studio</option><option>Thermal baths or bathhouse</option><option>Hotel or inn</option><option>Other</option></select></label>
   <label>Timing<select name="Timing"><option>Within 3 months</option><option>3 to 6 months</option><option>6 months or more</option><option>Just exploring</option></select></label>
   <fieldset class="full" id="eqpieces"><legend>Pieces you're considering</legend></fieldset>
-  <label>Colour story<select name="Colour story" id="eqstory"><option>Taupe &amp; off-white</option><option>Sage &amp; pine</option><option>Not sure yet</option></select></label>
+  <label>Colours<select name="Colours" id="eqstory"><option>Off-white &amp; pebble grey</option><option>Sage &amp; khaki</option><option>A mix of all four</option><option>Not sure yet</option></select></label>
   <label>Rough quantity per piece<select name="Quantity"><option>25 to 50</option><option>50 to 100</option><option>100 to 250</option><option>250 to 500</option><option>500+</option><option>Not sure yet</option></select></label>
   <label class="full">Anything else<textarea name="Message" placeholder="Your rooms, treatments, retail space, launch date..."></textarea></label>
   <div class="send"><button class="btn" type="submit">Send enquiry</button><small>Or email <a href="mailto:hello@relaisstudio.com">hello@relaisstudio.com</a></small></div>
@@ -308,20 +315,24 @@ footer .logo{display:inline-flex;color:var(--linen);margin:0}
  <div><h4>Studio</h4><a href="#range">The Range</a><a href="#build">Build your collection</a><a href="#making">Materials &amp; making</a><a href="#about">About</a><a href="#faq">FAQ</a></div>
  <div><h4>Venues</h4><a href="#venues">Spas &amp; retreats</a><a href="#venues">Yoga &amp; Pilates</a><a href="#venues">Thermal baths</a><a href="#venues">Hotels</a></div>
  <div><h4>Contact</h4><a href="mailto:hello@relaisstudio.com">hello@relaisstudio.com</a><a href="https://cassiaessentiels.com">Cassia Essentiels ↗</a></div>
- <div class="fine">© Relais Studio · Guestwear &amp; wellness essentials, made in Bali for venues across the US · <a href="privacy.html" style="display:inline;color:inherit">Privacy</a></div>
+ <div class="fine">© Relais Studio · Guestwear &amp; wellness essentials, designed in Bali, made in Indonesia for venues across the US · <a href="privacy.html" style="display:inline;color:inherit">Privacy</a></div>
 </div></footer>
 
 <script>
-const P=[["Robe","proposed-08","proposed-01"],["Lounge set","proposed-14","proposed-15"],["Eye mask","proposed-24","proposed-24"],["Scrunchie","scrunchie","scrunchie"],["Tote","products_mb-07","proposed-19"],["Pouch","proposed-36","proposed-36"],["Slippers","proposed-40","proposed-40"]];
+const P=[["Robe","proposed-08","proposed-01"],["Lounge set","proposed-14","proposed-15"],["Eye mask","proposed-24","proposed-24"],["Scrunchie","scrunchie","scrunchie"],["Headband","headband","headband-sage"],["Tote","products_mb-07","proposed-19"],["Make-up pouch","proposed-36","proposed-36"],["Envelope pouch","proposed-32","proposed-32"],["Slippers","proposed-40","proposed-40"]];
 let on=new Set(["Robe","Slippers","Eye mask","Tote"]),story="taupe";
 const chips=document.getElementById('chips'),board=document.getElementById('board');
 P.forEach(([n])=>{const b=document.createElement('button');b.className='chip';b.textContent=n;b.onclick=()=>{on.has(n)?on.delete(n):on.add(n);draw()};chips.appendChild(b)});
-document.querySelectorAll('.sw').forEach(s=>s.onclick=()=>{story=s.dataset.s;document.querySelectorAll('.sw').forEach(x=>x.classList.toggle('on',x===s));document.getElementById('sl').textContent=story==='taupe'?'Taupe & off-white':'Sage & pine';draw()});
+document.querySelectorAll('.sw').forEach(s=>s.onclick=()=>{story=s.dataset.s;document.querySelectorAll('.sw').forEach(x=>x.classList.toggle('on',x===s));document.getElementById('sl').textContent=story==='taupe'?'Off-white & pebble grey':'Sage & khaki';draw()});
 function draw(){[...chips.children].forEach(c=>c.classList.toggle('on',on.has(c.textContent)));
  board.classList.toggle('sage',story==='sage');board.style.gridTemplateColumns=`repeat(${on.size<=4?2:3},1fr)`;board.style.padding=on.size<=4?'28px 18%':'28px';
  const sel=P.filter(p=>on.has(p[0]));
- board.innerHTML=sel.length?sel.map(([n,a,b])=>{const k=story==='taupe'?a:b;return `<div class="it">${k?`<img loading="lazy" src="img/${k}.jpg" alt="">`:'<div class="ph">to come</div>'}<span>${n}</span></div>`}).join(''):'<div class="empty">Choose pieces to start your collection</div>';}
+ board.innerHTML=sel.length?sel.map(([n,a,b])=>{const k=story==='taupe'?a:b;return `<div class="it">${k?`<img loading="lazy" src="img/${k}.webp" alt="">`:'<div class="ph">to come</div>'}<span>${n}</span></div>`}).join(''):'<div class="empty">Choose pieces to start your collection</div>';}
 draw();
+// mobile menu
+const hd=document.querySelector('.hd'),mb=hd.querySelector('.menu-btn');
+mb.addEventListener('click',()=>{const o=hd.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+hd.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{hd.classList.remove('open');mb.setAttribute('aria-expanded',false)}));
 // enquiry form
 const fs=document.getElementById('eqpieces');
 P.forEach(([n])=>{const l=document.createElement('label');l.className="pc";l.innerHTML=`<input type="checkbox" name="Pieces" value="${n}"><span>${n}</span>`;fs.appendChild(l)});
